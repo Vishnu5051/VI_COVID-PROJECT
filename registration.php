@@ -56,7 +56,7 @@ if (!$conn) {
 
 <center>
 <p color="#ff3300"><h1 align="center" >Employee Login Details</h1></p>
-<form action = "login1.php" method = "POST" onsubmit ="return verifyPassword()">
+<form action = "registrationprocess.php" method = "POST" onsubmit ="return verifyPassword()">
   
 Username:</br> <input type = "text" name = "name"  /></br>
 Password: </br><input type = "password" id = "pass1" name="pass"  /></br>
